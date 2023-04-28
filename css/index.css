@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --colorBlanco: #e4e4e4;
+    --colorBlancoVerdad: #FFFFFF;
+    --colorNegro: #000;
+    --fontMontserrat: 'Montserrat', sans-serif;
+    --fontQuattrocento: 'Quattrocento Sans', sans-serif;
+    --colorMorado: #7D33FF;
+    --colorGris: #ECECEC;
+    --colorRojo: #ec1f1f;
+}
+
+.information__add {
+    background-color: var(--colorNegro);
+    color: var(--colorBlanco);
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fontMontserrat);
+    font-size: .8em;
+    padding: 15px 40px;
+}
+
+.information__rigth, .information__left, .bar__items__information {
+    display: flex;
+}
+
+.information__rigth, .information__left {
+    align-items: center;
+    gap: 8px;
+}
+
+.link__item__information {
+    color: var(--colorBlanco);
+    margin: 0 15px;
+}
+
+/*-------------------------------------------------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fontMontserrat);
+    padding: 20px 50px;
+}
+
+.header__rigth, .list__header, .item__list__header {
+    display: flex;
+    align-items: center;
+}
+
+.header__rigth {
+    gap: 150px;
+}
+
+.title__header {
+    font-size: 2.3em;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+}
+
+.buscador__header {
+    padding: 10px 15px;
+    width: 80%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: var(--colorGris);
+    border: 1px solid var(--colorGris);
+}
+
+.buscador__header:hover {
+    border: 1px solid var(--colorNegro);
+}
+
+.button__buscador {
+    width: 20%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--colorMorado);
+    color: var(--colorBlanco);
+    border: 1px solid var(--colorMorado);
+    transition: .5s;
+}
+
+.button__buscador:hover {
+    background-color: var(--colorNegro);
+    color: var(--colorBlanco);
+    border: 1px solid var(--colorNegro);
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------------*/
+.list__header {
+    gap: 30px;
+}
+
+.text__favoritos, .text__entrar {
+    margin-left: 10px;
+}
+
+.link__header__list {
+    color: var(--colorNegro);
+    font-size: .7em;
+    font-weight: lighter;
+}
+
+.line__none {
+    text-decoration: none;
+    font-size: .9em;
+}
+
+.text__car {
+    margin-left: 5px;
+    font-size: .9em;
+    background-color: var(--colorNegro);
+    color: var(--colorBlanco);
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+/*-------------------------------------------------*/
+.nav__list__items {
+    font-family: var(--fontMontserrat);
+    font-size: .75em;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    background-color: var(--colorGris);
+    padding: 10px 0 10px 50px;
+}
+
+.nav__item {
+    transition: .1s;
+    font-family: var(--fontQuattrocento);
+}
+
+.nav__item:hover {
+    color: var(--colorMorado);
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------*/
+.section__banner__div1__img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.section__banner__div1 {
+    position: relative;
+}
+
+.section__banner__div2 {
+    position: absolute;
+    left: 12%;
+    top: 32%;
+    font-family: var(--fontMontserrat);
+    width: 20%;
+}
+
+.title__mejores__precios {
+    font-weight: lighter;
+    background-color: var(--colorRojo);
+    color: var(--colorBlancoVerdad);
+    display: inline;
+    padding: 1px 10px;
+}
+
+.title__subtitle__banner {
+    font-size: 3em;
+    margin: 15px 0;
+}
+
+.title__gana__dinero {
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.button__banner__div2 {
+    background-color: var(--colorMorado);
+    color: var(--colorBlancoVerdad);
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: .9em;
+    border: 1px solid var(--colorMorado);
+    transition: .5s;
+}
+
+.button__banner__div2:hover {
+    background-color: var(--colorNegro);
+    border: 1px solid var(--colorNegro);
+    cursor: pointer;
+}
+
+/*-------------------------------------------*/
