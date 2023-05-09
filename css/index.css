@@ -199,3 +199,59 @@
 }
 
 /*-------------------------------------------*/
+.phone__audipfono {
+    background-color: var(--colorGris);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.section__article {
+    width: 46%;
+    padding: 30px 80px;
+    color: var(--colorBlancoVerdad);
+    font-family: var(--fontMontserrat);
+    line-height: 60px;
+}
+
+.section__phone {
+    background-image: url(../img/iphone__rojo.jpg);
+    background-repeat: no-repeat;
+}
+
+.section__audifono {
+    background-image: url(../img/audifonos__morado.jpg);
+    background-repeat: no-repeat;
+}
+
+.ofertas__articulos, .ache4__h4 {
+    font-weight: lighter;
+    font-family: var(--fontQuattrocento);
+    font-size: 1.2em;
+}
+
+.subtitle__h3 {
+    font-size: 3em;
+    max-width: 25%;
+}
+
+.button {
+    font-family: var(--fontQuattrocento);
+    padding: 10px 30px;
+    font-size: 1em;
+    border-radius: 20px;
+    border: 1px solid var(--colorBlancoVerdad);
+    transition: .5s;
+}
+
+.button__tienda:hover {
+    background-color: var(--colorRojo);
+    color: var(--colorBlancoVerdad);
+    cursor: pointer;
+}
+
+.button__comprar:hover {
+    background-color: var(--colorMorado);
+    color: var(--colorBlancoVerdad);
+    cursor: pointer;
+}
